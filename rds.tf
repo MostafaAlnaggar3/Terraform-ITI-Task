@@ -1,4 +1,4 @@
-
+# This code will create rds instance in the default subent if you don`t have default vpc please create subnet group first
 resource "aws_db_instance" "db_instance" {
   
   identifier           = "mysqldb"

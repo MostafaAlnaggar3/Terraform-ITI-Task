@@ -1,1 +1,3 @@
 .terraform
+bastion-ip.txt
+.terraform.lock.hcl
