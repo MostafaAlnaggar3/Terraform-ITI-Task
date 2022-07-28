@@ -15,7 +15,7 @@ resource "null_resource" "print-bastion-ip" {
   ]
 
   # to print public ip of the instance on your local host
-  provisioner "local-exec" {
-    command = "echo ${aws_instance.terra-bastion.public_ip} > bastion-ip.txt"
-  }
+  # provisioner "local-exec" {
+  #   command = "echo ${aws_instance.terra-bastion.public_ip} > bastion-ip.txt"
+  # }
 }
