@@ -26,6 +26,6 @@ variable "ami" {
   type = string
 }
 
-variable "dbpassword" {
-  type = string
-}
+# variable "dbpassword" {
+#   type = string
+# }
